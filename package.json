@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "publish": "lerna publish"
+  },
+  "dependencies": {
+    "element-plus": "^2.5.1"
+  },
+  "devDependencies": {
+    "lerna": "^8.0.2"
+  }
+}
