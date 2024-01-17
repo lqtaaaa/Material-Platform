@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "publish": "lerna publish"
+    "publish": "lerna publish --access public"
   },
   "dependencies": {
     "element-plus": "^2.5.1"
